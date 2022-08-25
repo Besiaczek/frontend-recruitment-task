@@ -158,6 +158,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
 }
 
 .popup {
@@ -226,4 +228,9 @@ h1 {
 
 .hidden {
     display: none;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
